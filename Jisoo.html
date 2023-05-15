@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/53aedfe9e6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="./Edades.js" defer></script>
+    <link rel="shortcut icon" type="image/png" href="./IMG/BP.png" />
+    <title>Jisoo</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-custom" id="navbar">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="./IMG/BP.png" alt="" width="60" height="30" class="d-inline-block align-top" />
+              IИ YOUR ΛREΛ
+          </a>
+  
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a title="Home" class="nav-link" href="./index.html">INICIO</a></li>
+                  <li class="nav-item"><a title="Jisoo" class="nav-link" href="./Jisoo.html">JISOO</a></li>
+                  <li class="nav-item"><a title="Jennie" class="nav-link" href="./Jennie.html">JENNIE</a></li>
+                  <li class="nav-item"><a title="Rose" class="nav-link" href="./Rose.html">ROSE</a></li>
+                  <li class="nav-item"><a title="Lisa" class="nav-link" href="./Lisa.html">LISA</a></li>
+                   <li class="nav-item">
+              <button type="button" class="btn btn-link nav-link" data-toggle="modal" data-target="#creditosModal">CREDITOS</button>
+            </li>
+          </ul>
+        </div>
+      </nav><div class="modal fade" id="creditosModal" tabindex="-1" role="dialog" aria-labelledby="creditosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="creditosModalLabel">Créditos</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body text-center">
+              <i>Hecho por: Fher Gonzalez:</i>
+                    <br>
+                    <i>Sigueme en mis redes sociales:</i>
+                    <a target="_blank" href="https://www.instagram.com/fheid_l.m/"> <i class="fa-brands fa-instagram"></i></a>
+                    <a target="_blank" href="https://github.com/Fernando1809"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="https://twitter.com/Fheid_lm"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  </nav>
+    <section id="Presentacion" class="bg-dark text-white">
+      <div class="container-fluid py-5">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-lg-8 text-center">
+            <h1 class="mb-4">Kim Jisoo</h1>
+            <img src="./IMG/Jisoo2.png" alt="Kim Jisoo" class="img-fluid rounded-circle mb-4" style="max-width: 400px;" />
+            <h4 class="mb-4">Vocalista principal y visual de BLACKPINK</h4>
+            <ul class="list-unstyled mb-4">
+              <a href="https://www.instagram.com/sooyaaa__/" class="btn btn-primary" target="_blank"><i class="fab fa-instagram"></i>
+              </button></i>@sooyaaa__</a>  
+              <a href="https://www.youtube.com/@sooyaaa__" target="_blank">
+                <button class="youtube">
+                  <i class="fab fa-youtube"></i>
+                  <span>행복지수 103%</span>
+                </button>
+              </a>
+              <li><strong>Fecha de nacimiento:
+                <br>
+              </strong> 3 de enero de 1995</li>
+              <li><strong>Edad:</strong>
+                <br>
+                <span id="edadJisoo"></span> años</li>
+              <li><strong>Lugar de nacimiento:</strong>
+                <br>
+                 Pistola, Provincia de Gyeonggi, Corea del Sur</li>
+              <li>
+                <strong>Marcas:</strong>
+                <br />
+                1.Dior Beauty
+                <br>
+                2.Cartier
+                <br>
+                3.Adidas Originals
+                <br>
+                4.Moonshot
+                <br>
+                5.AISAN TOP TEAM
+                <br>
+                6.Vita500
+                <br>
+                7.Yves Saint Laurent Beauty
+                <br>
+                8.Mercedes-Benz Korea
+                <br>
+                9.Penshoppe
+                <br>
+                10.Hazzys Accessories             
+               </li>
+               <strong>Firma:</strong>
+               <img src="./IMG/Firma Jis.webp" />
+            </ul>
+            <li><strong>Debut como solista</strong></li>
+            <!-- Agregar reproductor de Spotify -->
+      <div class="spotify-container" style="text-align: center;">
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4QuczuzDZNzCDli5Gz6DQ0?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>      </div>
+          </div>
+        </div>
+        <div class="text-center">
+        <li class="text-center"><strong>Debut como actriz</strong></li>
+        <img src="./IMG/Snowdrop.jpg" width="50%" />
+        <br>
+        <a href="https://www.starplus.com/es-419/series/snowdrop/7E3RWgrSi59X" class="btn btn-primary" role="button">Snowdrop</a>
+       </div>
+      </div>
+    </section>
+    
+    <footer class="bg-dark text-white py-3">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p>© 2023 YG Entertainment. Todos los derechos reservados.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  
