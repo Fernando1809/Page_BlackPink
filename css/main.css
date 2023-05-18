@@ -12,19 +12,57 @@
            }
 
            .amiibo-name {
-               background-color: rgba(0, 0, 0, 0.4);
-               color: white;
-               display: inline-block;
-               margin: 0 auto;
-               text-align: center;
-               border-radius: 15px;
-           }
+  /* Agregamos propiedades para que los spam se muestren abajo */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1 {
+  /* Ajustamos el margen inferior para separar los elementos */
+  margin-bottom: 10px;
+}
+
+.p-1 {
+  /* Ajustamos el margen superior para separar los elementos */
+  margin-top: 10px;
+}
+
+/* Centramos las imágenes */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 
            #Spotify {
             background-color:  #232323; /* negro */
             color:#F2D9E6; /* rosa */
             text-align: center;
          }  
+         #BPM{
+          background-color: #ff2d55;
+          color: black;
+          text-align: center;
+         }
+         .custom-button {
+          background-color: black;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+        .custom-button {
+          background-color: pink;
+          border: none;
+          color: white;
+          padding: 10px 20px;
+          border-radius: 5px;
+          cursor: pointer;
+        }
+                
           #back-to-top {
             display: none;
             position: fixed;
