@@ -92,3 +92,29 @@ img {
             border-color: purple;
           }
           
+#biografia{
+  background-color: #FF1493;
+}
+#biogr{
+  background-color: black;
+}
+.logo-blackpink {
+  float: left;
+  margin-right: 10px;
+  width: 500px; /* Ajusta el ancho de la imagen del logo */
+}
+
+.texto-grande {
+  font-size: 20px; /* Ajusta el tamaño de la fuente del texto */
+}
+
+.album-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.album-container iframe {
+  margin-bottom: 10px;
+}

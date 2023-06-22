@@ -17,7 +17,7 @@ $(document).ready(function () {
 
 //Edad de Rose
 $(document).ready(function () {
-  var nacimiento = moment("1996-01-16");
+  var nacimiento = moment("1997-01-16");
   var hoy = moment();
   var edad = hoy.diff(nacimiento, "years");
   $("#edadRose").text(edad);

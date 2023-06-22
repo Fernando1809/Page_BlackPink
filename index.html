@@ -32,6 +32,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a title="INTEGRANTES DE BP" class="nav-link" href="#biografia">BLACKPINK</a></li>
             <li class="nav-item"><a title="INTEGRANTES DE BP" class="nav-link" href="#Integrantes">LΛS PIИKS</a></li>
             <li class="nav-item"><a title="PLAYLIST" class="nav-link" href="#Spotify">PLΛYLIST</a></li>
             <li class="nav-item"><a title="BLACKPINK ON YT" class="nav-link" href="#BPM">BLACKPINK ON YT</a></li>
@@ -149,33 +150,30 @@
     <div id="separator-amiibos">
         <div class="content bg-success"></div>
     </div>
-
     <button onclick="topFunction()" id="back-to-top" title="Go to top"><i class="fas fa-home"></i></button>
-
-    <script>
-      // Función para desplazarse al principio de la página
-      function topFunction() {
-        document.body.scrollTop = 0; // Para Safari
-        document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE y Opera
-      }
-
-      // Mostrar el botón cuando se desplaza hacia abajo
-      window.onscroll = function() {
-        scrollFunction();
-      };
-
-      function scrollFunction() {
-        if (
-          document.body.scrollTop > 20 ||
-          document.documentElement.scrollTop > 20
-        ) {
-          document.getElementById("back-to-top").style.display = "block";
-        } else {
-          document.getElementById("back-to-top").style.display = "none";
-        }
-      }
-    </script>
-
+    <section id="biografia">
+      <h1 class="text-center">BLACKPINK</h1>
+      <div class="card">
+        <div class="card-body text-white" id="biogr">
+          <img src="./IMG/Logo.gif" alt="Logo de Blackpink" class="logo-blackpink">
+          <p class="texto-grande">BlackPink es un popular grupo de música surcoreano formado por cuatro integrantes: Jisoo, Jennie, Rosé y Lisa. El grupo fue creado en 2016 por la agencia de entretenimiento YG Entertainment y rápidamente ganó reconocimiento tanto en Corea del Sur como a nivel internacional. Actualmente tienen <span id="yearsActive"></span> años activas en la industria.</p>
+          <h1 class="text-left">Álbum's:</h1>
+          <div class="album-container">
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/album/71O60S5gIJSIAhdnrDIh3N?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/album/7jaSNQUBJbvfbZHLNFrV7P?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          <h1 class="text-center">Minialbum's & Singles:</h1>
+          <div class="album-container">
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/album/0FOOodYRlj7gzh7q7IjmNZ?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/album/2Fna4Tb7fme5aHsNMJtVtp?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/album/7ikmjsvRzDRzxHN0KXSQdv?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius: 12px" src="https://open.spotify.com/embed/album/0wOiWrujRbxlKEGWRQpKYc?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <iframe style="border-radius: 12px; margin: 0 auto;" src="https://open.spotify.com/embed/album/3PNxZ3BELbUXJ1XLktXiHz?utm_source=generator" width="40%" height="152" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    
     <div id="amiibos" class="px-5 pb-5">
         <div class="container">
             <div class="row justify-content-center aling-items-center">
@@ -222,7 +220,6 @@
             <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX8kP0ioXjxIA?utm_source=generator" width="660px" height="450" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> 
             </div>
 </section>   
-
             <section id="BPM">
               <h1 class="text-white">BLACKPINK ON YT</h1>
               <div id="separator-amiibos" class="row justify-content-center align-items-center">
@@ -255,4 +252,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
+    <script src="./JS/script.js"></script>
 </html>
