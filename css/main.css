@@ -93,7 +93,7 @@ img {
           }
           
 #biografia{
-  background-color: #FF1493;
+  background-color:pink;
 }
 #biogr{
   background-color: black;
@@ -117,4 +117,8 @@ img {
 
 .album-container iframe {
   margin-bottom: 10px;
+}
+
+.text-pink {
+  color: pink;
 }
