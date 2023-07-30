@@ -72,8 +72,8 @@ img {
             font-size: 18px;
             border: none;
             outline: none;
-            background-color: wheat;
-            color: #ff2d55;
+            background-color: black;
+            color: pink;
             cursor: pointer;
             padding: 35px;
             border-radius: 50%; /* Agregamos esta propiedad para darle forma redonda */
@@ -122,3 +122,27 @@ img {
 .text-pink {
   color: pink;
 }
+
+/* Estilo para hacer la imagen responsiva */
+.logo-blackpink {
+  max-width: 100%;
+  height: auto;
+}
+/* Estilo para hacer el contenedor del video responsivo */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (dividir la altura por el ancho y multiplicar por 100) */
+  height: 0;
+  overflow: hidden;
+}
+
+/* Estilo para hacer el iframe dentro del contenedor responsivo */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+}
+/* Estilo base para el elemento */
+.amiibo-name {
+  font-size: 2rem; /* Tamaño del texto base, ajusta según tus preferencias */
+}
+
