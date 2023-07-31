@@ -145,4 +145,7 @@ img {
 .amiibo-name {
   font-size: 2rem; /* Tamaño del texto base, ajusta según tus preferencias */
 }
-
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
